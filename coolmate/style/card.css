@@ -1,0 +1,259 @@
+.card {
+    max-width: 300px;
+    min-width: 180px;
+    margin: 40px 40px;
+}
+
+.article__card {
+    display: flex;
+    gap :4px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: -15px;
+    flex : 1;
+}
+
+.card__top {
+position: relative;
+
+}
+
+.top__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 20px);
+    margin: auto;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top__header--left {
+
+
+}
+
+.header__play {
+    display: inline-flex;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    background-color: rgba(39, 37, 39, 0.68);
+}
+
+.header__play > i {
+    color: white;
+    font-size: 12px;
+}
+  
+.header__rate {
+}
+  
+.header__couter {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1em;
+    letter-spacing: 0.03em;
+    color: #2f5acf;
+}
+  
+  .top__header--right {
+}
+
+.header__tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    height: 22px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.header__tag--green {
+    background-color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px 8px;
+    color: white;
+}
+/* 
+.header__tag--blue {
+    background-color: blue; 
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px 8px;
+    color: white;
+} */
+
+.image__block {
+    position: relative;
+    width: 300px;
+    max-height: 380px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.block__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover {
+    opacity: 0;
+}
+
+ /* .image__block:hover > .block__image {
+        scale: 2;
+} */
+
+.image__block:hover > .hover {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.image__block:hover >  .block__size {
+    visibility: visible;
+}
+
+.block__size {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 30px;
+    border-radius: 10px;
+    padding: 15px 10px 10px;
+    backdrop-filter: blur(50px);
+    /* visibility: hidden; */
+}
+
+.size__title {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.size__list {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+
+}
+
+.size__item {
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 70%;
+    font-weight: bold;
+}
+.size__item:hover {
+    background: black;
+    color: #fff;
+}
+
+.card__body {
+
+
+}
+
+.body__colors { 
+    margin: 5px 20px;
+
+}
+
+.color__item {
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    background-color:#2f5acf;
+    border-radius: 15px;
+    border: 1px solid black;
+    position: relative;
+
+}
+
+.color__item:hover::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 41px;
+    height: 26px;
+    border-radius: 15px;
+    border: 1.5px solid gray;
+}
+
+.card__product-name {
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 400   ;
+    margin-bottom: 0.75rem;
+}
+
+.card__product-color {
+    font-size: 14px;
+    color: #0009;
+    margin: -10px 0 5px;
+}
+
+.card__product-price {
+    margin: 0;
+    font-family: Pangea,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #231f20;
+    text-align: left;
+}
+
+.price__discounted {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 700;
+  }
+  
+  .price__price {
+    text-decoration: none;
+    color: #c4c4c4;
+    font-weight: 700;
+  }
+  
+  .price__discount {
+    color: red;
+    margin-left: 10px;
+  }
+  
+  .card__product-note--hightlight {
+    color: #2f5acf;
+    font-style: italic;
+  }
+  
+  .card__product-note {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-style: italic;
+    letter-spacing: .03em;
+    margin-top: 5px;
+    color: #000000;
+    opacity: 0.3;
+  }

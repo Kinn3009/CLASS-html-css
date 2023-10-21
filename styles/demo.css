@@ -1,0 +1,16 @@
+p {
+  color: yellow !important;
+  text-align: center;
+}
+
+/* #p-id {
+  color: green;
+} */
+
+.p-class {
+  color: violet !important;
+}
+
+.p-class2 {
+  color: brown;
+}

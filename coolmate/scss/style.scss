@@ -1,0 +1,85 @@
+// pattern 1
+
+.block {}
+.block .block__element--1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.block .block__element--2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.block .block__element--3 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+// pattern 2
+
+.block {
+  .block__element--1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+  .block__element--2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+  .block__element--3 {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+}
+
+// 3
+
+.block {
+  width: 100px;
+  height: 100px;
+
+  &__element--1 {
+    background: red;
+  }
+  &__element--2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+  &__element--3 {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+}
+
+// 4
+
+.block {
+  width: 100px;
+  height: 100px;
+  &__element {
+    width: 100px;
+    height: 100px;
+    &--1 {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+    &--2 {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+    &--3 {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+  }
+}
