@@ -45,21 +45,15 @@ html {
   text-align: center;
 }
 
-.menu {
+.food .menu {
   display: flex;
   flex-wrap: wrap;
   margin: -20px -15px;
 }
-
-.menu__item {
+.food .menu .card {
   width: calc(33.3333333333% - 30px);
   min-width: 300px;
   margin: 20px 15px;
-}
-
-.card {
-  width: 370px;
-  height: 410px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,21 +64,21 @@ html {
   background: #fff;
   box-sizing: border-box;
 }
-.card__img {
+.food .menu .card__img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card__body {
+.food .menu .card__body {
   width: 100%;
 }
-.card__rating {
+.food .menu .card__rating {
   height: 22px;
 }
-.card__rating img {
+.food .menu .card__rating img {
   height: 100%;
 }
-.card__name {
+.food .menu .card__name {
   margin-top: 10px;
   margin-bottom: 12px;
   color: #181818;
@@ -98,7 +92,7 @@ html {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.card__description {
+.food .menu .card__description {
   color: #787878;
   font-family: Inter;
   font-size: 16px;
@@ -112,14 +106,14 @@ html {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.card__footer {
+.food .menu .card__footer {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   margin-top: 17px;
 }
-.card__price {
+.food .menu .card__price {
   color: #060606;
   font-family: Inter;
   font-size: 20px;
@@ -127,15 +121,15 @@ html {
   font-weight: 500;
   line-height: normal;
 }
-.card__icons {
+.food .menu .card__icons {
   display: flex;
   gap: 10px;
 }
-.card__icons--like {
+.food .menu .card__icons--like {
   /* width: 32px;
         height: 32px; */
 }
-.card__icons--share {
+.food .menu .card__icons--share {
   /* width: 32px;
         height: 32px; */
 }
@@ -184,8 +178,20 @@ html {
   background: linear-gradient(101.98deg, #FFBC2D 41.25%, #FEB618 98.64%);
 }
 
-.card__delivery {
-  width: 100%;
+.between {
+  margin-top: 400px;
+}
+.between .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -20px -15px;
+}
+.between .menu .card {
+  width: 368px;
+  height: 464px;
+  margin: 20px 15px;
   display: flex;
   flex-direction: column;
   padding-top: 0;
@@ -193,18 +199,18 @@ html {
   background: #fff;
   box-sizing: border-box;
 }
-.card__delivery__img {
+.between .menu .card__img {
   width: 100%;
 }
-.card__delivery__body {
+.between .menu .card__body {
   width: 100%;
-  margin: auto;
-}
-
-.between {
-  margin-top: 400px;
+  margin: 20px;
 }
 
 .image {
   width: 100%;
+}
+
+.hungry {
+  margin-top: 400px;
 }/*# sourceMappingURL=style.css.map */
