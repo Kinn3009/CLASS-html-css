@@ -1,0 +1,55 @@
+          <div class="row">
+            <div class="col-12 col-lg-4 rounded-pill ">
+              <div class="card">
+                <div class="card-header d-flex justify-content-center ">
+                  <img src="./assets/img/Image.png" alt="food image">
+                </div>
+                <div class="card__body card-body mb-3">
+                  <h5 class="card-title mb-3">
+                    Riders
+                  </h5>
+                  <p class="card-text mb-3">
+                    We store the vast majority of the digital assets in secure
+                  </p>
+                  <button class="btn btn btn-primary rounded-pill d-flex align-items-center px-4x">
+                    <span class="me-2">Apply Now</span>
+                    <i class="fa-solid fa-arrow-right see-more__icon"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 rounded-pill ">
+              <div class="d-flex justify-content-center ">
+                <img src="./assets/img/Image.png" alt="food image">
+              </div>
+              <div class="card__body mb-3">
+                <h5 class="card-title mb-3">
+                  Riders
+                </h5>
+                <p class="card-text mb-3">
+                  We store the vast majority of the digital assets in secure
+                </p>
+                <button class="btn btn btn-primary rounded-pill d-flex align-items-center px-4x">
+                  <span class="me-2">Apply Now</span>
+                  <i class="fa-solid fa-arrow-right see-more__icon"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 rounded-pill ">
+              <div class="d-flex justify-content-center ">
+                <img src="./assets/img/Image.png" alt="food image">
+              </div>
+              <div class="card__body mb-3">
+                <h5 class="card-title mb-3">
+                  Riders
+                </h5>
+                <p class="card-text mb-3">
+                  We store the vast majority of the digital assets in secure
+                </p>
+                <button class="btn btn btn-primary rounded-pill d-flex align-items-center px-4x">
+                  <span class="me-2">Apply Now</span>
+                  <i class="fa-solid fa-arrow-right see-more__icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>

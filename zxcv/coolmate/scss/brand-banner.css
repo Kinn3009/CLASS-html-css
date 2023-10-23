@@ -1,0 +1,45 @@
+.brand {
+  display: flex;
+}
+.brand .banner {
+  padding: 9px;
+  position: relative;
+  min-width: 400px;
+}
+.brand .banner__picture {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+.brand .banner__infos {
+  position: absolute;
+  left: 3rem;
+  height: 100%;
+  top: -10%;
+}
+.brand .banner .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.brand .banner .infos__category {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7098039216);
+}
+.brand .banner .infos__title {
+  font-size: 4.4rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.brand .banner .infos__btn {
+  padding: 14px 40px;
+  text-transform: uppercase;
+  border-radius: 0 20px 0 20px;
+  font-weight: bold;
+  background: white;
+  cursor: pointer;
+}
+.brand .banner .infos__btn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=brand-banner.css.map */
