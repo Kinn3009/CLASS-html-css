@@ -1,0 +1,40 @@
+.title__content {
+  color: #101010;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 117.647% */
+  letter-spacing: -0.34px;
+}
+.title__icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.category__name {
+  color: #171717;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: -0.24px;
+}
+.category__desription {
+  color: #969696;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 138.889% */
+}
+.category__prite {
+  color: #FF4415;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}/*# sourceMappingURL=style.css.map */
