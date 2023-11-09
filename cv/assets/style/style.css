@@ -1,45 +1,197 @@
-.head {
-  font-family: Reenie Beanie;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  background: linear-gradient(103deg, #FA5252 40.66%, #DD2476 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(103deg, #FA5252 40.66%, #DD2476 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Roboto Slab;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+body {
+  background-image: url(../img/bg.jpg);
 }
 
-.menu {
-  display: inline-flex;
-  padding: 10px 18px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
+.srcollbar {
+  margin-top: 240px;
+  display: flex;
 }
 
-.introduce {
-  color: #000;
-  font-family: Roboto Slab;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.container {
+  margin: auto;
 }
 
-.image {
-  width: 330px;
-  height: 401px;
-  top: 372px;
-  left: 395px;
+.linered {
+  display: inline-block;
+  width: 200px;
+  height: 3px;
+  border-radius: 2px;
+  background: red;
+}
+
+.line {
+  width: 280px;
+  height: 1px;
+  background: #E3E3E3;
+}
+
+.card {
   border-radius: 20px;
+  background: white;
+}
+
+.page {
+  display: flex;
+  margin-top: 240px;
+  position: relative;
+}
+
+.information {
+  position: relative;
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.information__avartar {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.information__user {
+  padding-top: 140px;
+  text-align: center;
+}
+.information__user__name {
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2.125rem;
+}
+.information__user__position {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background: #F3F6F6;
+  border-radius: 8px;
+}
+.information__user__icon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.information__user__info {
+  margin: 0 30px 30px 30px;
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--background-secondary);
+  background: #F3F6F6;
+}
+.social__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background: #F3F6F6;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  min-width: 240px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--color-third);
+}
+.info__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 11px 15px;
+  margin-right: 10px;
+  background: var(--white);
+  border-radius: 8px;
+  margin: 10px;
+  background: white;
+}
+.main {
+  margin: 184px 0 60px 40px;
+}
+
+.wrapper {
+  padding: 60px;
+}
+.wrapper__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.wrapper__header__title {
+  display: inline;
+  margin-right: 30px;
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.3125rem;
+}
+
+.list__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
+}
+.list__title__icon {
+  margin-right: 10px;
+  width: 27px;
+}
+.list__title__name {
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 2.4375rem;
+}
+
+.crossbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  padding: 30px;
+  right: 0;
+  top: 0;
+  transition: 0.5s ease-in-out;
+}
+.crossbar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  padding: 17px 22px 15px 22px;
+  border-radius: 12px;
+  background: #F3F6F6;
+}
+.crossbar__item__icon {
+  height: 25px;
+}
+.crossbar__item__title {
+  margin-top: 7px;
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 0.725rem;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
