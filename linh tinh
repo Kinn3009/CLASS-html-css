@@ -53,3 +53,138 @@
               </div>
             </div>
           </div>
+
+
+
+          .main {
+            margin: 184px 0 60px 40px;
+          
+          }
+          
+          .wrapper  {
+            padding: 60px;
+            &__header {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin-bottom: 30px;
+          
+          }
+          
+            &__header__title {
+              display: inline;
+              margin-right: 30px;
+              font-family: var(--font-family-secondary);
+              font-weight: 700;
+              font-size: 2.5rem;
+              line-height: 3.3125rem;
+          }
+          
+          }
+          .article--body {
+            &__list {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding :60px;
+          }
+          
+          }
+          .list  {
+            &__left {
+          
+          
+          }
+          
+            &__title {
+          
+          }
+          
+            &__title__icon {
+              color: #F95054;
+              font-family: Font Awesome 5 Pro;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+          }
+          
+            &__title__name {
+              color: #000;
+              font-family: Poppins;
+              font-size: 26px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+          }
+          
+            &__content {
+              display: flex;
+              flex-direction: column;
+          }
+          
+            &__content__item {
+              display: inline-block;
+              margin-bottom: 20px;
+              padding: 15px 15px 15px 20px;
+              box-sizing: border-box;
+              border-radius: 12px;
+          }
+          
+            &__content__time {
+              color: #44566C;
+          }
+          
+            &__content__location {
+              color: #0F172A;
+          }
+          
+            &__content__address {
+              color: #44566C;
+          }
+          
+            &__right {
+              margin-left: 30px;
+          }
+          
+          }
+          .bg {
+            &--FFF4F4{
+              background: #fff4f4;
+          }
+            &--EEF5FA{
+              background: #EEF5FA;
+          }
+            &--FCF4FF{
+              background: #FCF4FF;
+          }
+          }
+          .list  {
+            &__title {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              margin-bottom: 20px;
+              font-weight: 500;
+              font-size: 1.625rem;
+              line-height: 2.4375rem;
+          
+          }
+            &__content__description {
+              color: #44566C;
+              font-size: 0.925rem;
+              line-height: 1.875rem;
+          }
+          
+            &__title__icon {
+              margin-right: 10px;
+              width: 27px;
+          }
+          
+            &__title__name {
+              font-weight: 500;
+              font-size: 1.625rem;
+              line-height: 2.4375rem;
+          }
+          
+          }

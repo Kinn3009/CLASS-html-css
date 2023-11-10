@@ -1,6 +1,9 @@
 body {
   background-image: url(../img/bg.jpg);
 }
+html {
+  font-family: "Roboto Slab", serif;
+}
 .srcollbar {
     margin-top: 240px;
     display: flex;
@@ -161,7 +164,7 @@ body {
 }
 .main {
   margin: 184px 0 60px 40px;
-
+  padding: 0 30px 0 30px;
 }
 
 .wrapper  {
@@ -184,9 +187,12 @@ body {
 }
 
 }
-.wrapper  {
+.article--body {
   &__list {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding :60px;
 }
 
 }
@@ -232,31 +238,31 @@ body {
 }
 
   &__content__time {
-
+    color: #44566C;
 }
 
   &__content__location {
-
+    color: #0F172A;
 }
 
   &__content__address {
-
+    color: #44566C;
 }
 
   &__right {
-
+    margin-left: 30px;
 }
 
 }
 .bg {
   &--FFF4F4{
-
+    background: #fff4f4;
 }
   &--EEF5FA{
-
+    background: #EEF5FA;
 }
   &--FCF4FF{
-
+    background: #FCF4FF;
 }
 }
 .list  {
@@ -264,7 +270,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
     font-weight: 500;
     font-size: 1.625rem;
     line-height: 2.4375rem;
@@ -314,6 +319,7 @@ body {
 
   &__item__icon {
     height: 25px;
+    color: gray;
 }
 
   &__item__title {
@@ -321,7 +327,8 @@ body {
     color: var(--color-secondary);
     font-weight: 500;
     font-size: 0.725rem;
-    line-height: 1.25rem;
+    text-decoration: unset;
+    flex : 1; 
 }
 
 }
