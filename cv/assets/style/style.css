@@ -81,12 +81,32 @@ body {
   justify-content: center;
 }
 .information__user__info {
-  margin: 0 30px 30px 30px;
-  padding: 30px;
+  margin: 30px;
+  padding: 10px 10px 10px 30px;
   border-radius: 16px;
-  background: var(--background-secondary);
   background: #F3F6F6;
 }
+.information__btn {
+  display: inline-flex;
+  margin-bottom: 30px;
+  padding: 1px 30px;
+  border-radius: 10px;
+  background: linear-gradient(94deg, #FA5252 0%, #DD2476 100%);
+}
+.information__btn__icon {
+  width: 22px;
+  height: 22px;
+  margin: 18px 10px 0 0;
+}
+.information__btn__title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .social__icon {
   display: flex;
   justify-content: center;
@@ -101,11 +121,6 @@ body {
 .info {
   display: flex;
   flex-direction: row;
-  min-width: 240px;
-  margin: auto;
-  margin-bottom: 10px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid var(--color-third);
 }
 .info__icon {
   display: flex;
@@ -118,9 +133,25 @@ body {
   margin-right: 10px;
   background: var(--white);
   border-radius: 8px;
-  margin: 10px;
+  margin-top: 12px;
   background: white;
 }
+.info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info__content__title {
+  margin-bottom: 2px;
+  color: var(--color-secondary);
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.info__content__description {
+  text-align: left;
+  margin-top: 2px;
+}
+
 .main {
   margin: 184px 0 60px 40px;
 }
@@ -143,6 +174,33 @@ body {
   line-height: 3.3125rem;
 }
 
+.list__title__icon {
+  color: #F95054;
+  font-family: Font Awesome 5 Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.list__title__name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.list__content {
+  display: flex;
+  flex-direction: column;
+}
+.list__content__item {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 15px 15px 15px 20px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
 .list__title {
   display: flex;
   flex-direction: row;
@@ -151,6 +209,11 @@ body {
   font-weight: 500;
   font-size: 1.625rem;
   line-height: 2.4375rem;
+}
+.list__content__description {
+  color: #44566C;
+  font-size: 0.925rem;
+  line-height: 1.875rem;
 }
 .list__title__icon {
   margin-right: 10px;
