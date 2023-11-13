@@ -7,7 +7,6 @@ html {
 }
 
 .srcollbar {
-  margin-top: 240px;
   display: flex;
 }
 
@@ -268,6 +267,7 @@ html {
   right: 0;
   top: 0;
   transition: 0.5s ease-in-out;
+  text-decoration: none;
 }
 .crossbar__item {
   display: flex;
@@ -278,7 +278,7 @@ html {
   height: 84px;
   box-sizing: border-box;
   margin-right: 20px;
-  padding: 17px 22px 15px 22px;
+  padding: 27px 22px 15px 22px;
   border-radius: 12px;
   background: #F3F6F6;
 }
@@ -291,6 +291,8 @@ html {
   color: var(--color-secondary);
   font-weight: 500;
   font-size: 0.725rem;
-  text-decoration: unset;
-  flex: 1;
+  text-decoration: none !important;
+}
+.crossbar__item__title:hover {
+  text-decoration: none !important;
 }/*# sourceMappingURL=style.css.map */

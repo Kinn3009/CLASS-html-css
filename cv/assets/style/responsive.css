@@ -1,0 +1,22 @@
+@media (min-width : 1400px){
+    .srcollbar {
+        min-width: 100%;
+    }
+}
+
+@media (max-width : 1200px){
+    .information, .information__user__info {
+        width: unset;
+    }
+    .information {
+            display: flex;
+            flex-direction: row;
+            padding: 60px;
+    }
+}
+
+@media (max-width : 1400px){
+    .srcollbar {
+        min-width: 1320px;
+    }
+}
