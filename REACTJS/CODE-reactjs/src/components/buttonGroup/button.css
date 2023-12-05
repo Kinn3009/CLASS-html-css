@@ -1,0 +1,18 @@
+.button-c {
+    display: flex;
+    width: 330px;
+    padding: 20px 24px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #000;
+}
+.title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 117.647% */
+    letter-spacing: 0.5px;
+}
