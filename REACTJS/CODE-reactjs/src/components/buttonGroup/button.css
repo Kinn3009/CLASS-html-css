@@ -10,6 +10,7 @@
     align-items: center;
     gap: 29px;
     margin-bottom: 20px;
+    margin-left: 100px;
 }
 .btn-light {
     background-color: white;
