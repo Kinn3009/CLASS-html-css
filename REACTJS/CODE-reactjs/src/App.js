@@ -4,6 +4,7 @@ import "./App.css";
 import Profile from "./components/Profile";
 import Button from "./components/buttonGroup/button";
 import Block from "./components/blockGroup/block";
+import Tab from "./components/tab/index";
 
 const contentDefault =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -15,6 +16,7 @@ const TAB = {
 };
 
 function App(props) {
+ 
   const tabData = [
     {
       value: 1,
@@ -244,6 +246,9 @@ function App(props) {
 
   return (
     <>
+    < Tab />
+
+
       <div className="tab">
         <TabItem
           title="Complete"
