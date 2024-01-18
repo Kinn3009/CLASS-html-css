@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate, Navigate } from "react-router-dom";
 
 import { LOCATION } from 'constants/index';
 
@@ -16,7 +16,7 @@ import FormLogin from 'Page/Form/FormLogin.jsx';
 import UseCallback from 'Page/Hook/UseCallback.jsx';
 import UseMemo from 'Page/Hook/UseMemo.jsx';
 import UseRef from 'Page/Hook/UseRef.jsx';
-import Header from 'components/Header';
+import Header from 'components/Layout/Header';
 
 import './App.css';
 import './style.css';
@@ -44,7 +44,11 @@ function App() {
     <div className='container'>
 
       <Header/>
-      
+
+      {/* {
+        !isLogin && <Navigate to={LOCATION.FORM_LOGIN} replace={true} />
+      } */}
+
       <Routes>
         {
           routes.map((r, index) => <Route key={index} path={r.path} element={r.element} />)
